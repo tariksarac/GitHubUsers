@@ -1,0 +1,19 @@
+.FileItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 80px;
+  background-color: #3c4146;
+  border-bottom: 1px solid #e1e4e8;
+  padding-left: 50px;
+  color: #fff;
+  margin-bottom: 10px;
+  .title {
+    //height: 15px;
+
+  }
+  .description {
+    display: flex;
+  }
+}

@@ -1,0 +1,27 @@
+.repo-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 50px 0;
+
+
+  .repo-title-name {
+    font-size: 32px;
+    font-weight: 400;
+  }
+  .repo-title-stars {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.repo-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  .issues {
+
+  }
+
+}

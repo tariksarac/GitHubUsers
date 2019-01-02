@@ -1,0 +1,54 @@
+.ResultItem {
+  width: 200px;
+  height: 100px;
+  background-color: #3c4146;
+  margin-right: 20px;
+
+  .result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 200px;
+
+    .result-name {
+      color: #ffffff;
+    }
+
+    .result-repositories {
+      display: flex;
+      .repo-number {
+        color: #ffffff;
+        font-size: 10px;
+      }
+      .repo-stars {
+        color: #ffffff;
+        font-size: 10px;
+      }
+    }
+  }
+  .active-results {
+    width: 100%;
+    margin-top: 10px;
+    height: 2px;
+    background-color: dodgerblue;
+  }
+  &:hover {
+    .result-container {
+      background-image: url("../../../../assets/logo.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .result-name {
+        display: none;
+      }
+      .result-repositories {
+        display: none;
+      }
+    }
+
+
+  }
+}

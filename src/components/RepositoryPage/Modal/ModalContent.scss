@@ -1,0 +1,20 @@
+.ModalContent {
+    width: 600px;
+    height: 380px;
+    .modal-form {
+        display: flex;
+        flex-direction: column;
+        label {
+          font-size: 12px;
+          opacity: 0.6;
+        }
+
+        //button {
+        //  margin-left: auto;
+        //  margin-right: 0;
+        //  width: 130px;
+        //  height: 40px;
+        //  outline: none;
+        //}
+    }
+}

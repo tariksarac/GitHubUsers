@@ -1,0 +1,21 @@
+.Pagination {
+ display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin: 20px auto;
+
+
+  .next-prev {
+    opacity: 0.5;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: #3c4146;
+      color: #ffffff;
+    }
+  }
+}
