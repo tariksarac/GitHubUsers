@@ -7,14 +7,14 @@ const Pagination = ({ onPageChange, startCursor, hasNextPage, hasPreviousPage, e
         <div className={'Pagination'}>
             <div
                 className={'next-prev'}
-                style={{ opacity: hasPreviousPage && '1' }}
-                onClick={() => hasPreviousPage && onPageChange(null, startCursor)}>
+                style={{ opacity: hasPreviousPage && '1', cursor: hasPreviousPage && 'pointer' }}
+                onClick={() => hasPreviousPage && onPageChange(null, 5, null, startCursor)}>
                 Prev
             </div>
             <div
                 className={'next-prev'}
-                style={{ opacity: hasNextPage && '1' }}
-                onClick={() => hasNextPage && onPageChange(endCursor, null)}>
+                style={{ opacity: hasNextPage && '1', cursor: hasNextPage && 'pointer' }}
+                onClick={() => hasNextPage && onPageChange(5, null, endCursor, null)}>
                 Next
             </div>
         </div>

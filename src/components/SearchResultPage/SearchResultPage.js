@@ -89,7 +89,7 @@ class SearchResultPage extends React.Component {
                                 selectedUser={selectedUser}
                             />
                             {selectedUser ? (
-                                <RepositoriesList listOfRepositories={edges} selectedUser={selectedUser} />
+                                <RepositoriesList selectedUser={selectedUser} />
                             ) : (
                                 <Info info={'Please select user'} />
                             )}

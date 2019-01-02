@@ -17,8 +17,8 @@ const ResultItem = ({
             <div className={'result-container'}>
                 <div className={'result-name'}>{name}</div>
                 <div className={'result-repositories'}>
-                    <div className={'repo-number'}>{`${repositoriesCount} Repositories`}</div>
-                    <div className={'repo-stars'}>{`• ${starredRepositoriesCount} Stars`}</div>
+                    <div className={'repo-number'}>{`${repositoriesCount} Repositories `}</div>
+                    <div className={'repo-stars'}>{` • ${starredRepositoriesCount} Stars`}</div>
                 </div>
             </div>
             {active && <div className={'active-results'} />}

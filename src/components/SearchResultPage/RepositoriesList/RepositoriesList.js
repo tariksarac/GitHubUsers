@@ -9,9 +9,9 @@ import ArtlandLoader from "../../Common/ArtlandLoader/ArtlandLoader";
 import Info from "../../Common/Info/Info";
 
 const REPOSITORIES_LIST = gql`
-    query getUserRepositories($name: String!, $after: String, $before: String) {
+    query getUserRepositories($name: String!, $first: Int, $last: Int, $after: String, $before: String) {
         user(login: $name) {
-            repositories(first: 5, after: $after, before:$before) {
+            repositories(first: $first, last: $last after: $after, before: $before, isFork: false) {
                 totalCount
                 pageInfo {
                     startCursor
@@ -38,7 +38,7 @@ const RepositoriesList = ({selectedUser}) => {
     return (
         <Query
             query={REPOSITORIES_LIST}
-            variables={{ name: selectedUser }}
+            variables={{ name: selectedUser, first: 5 }}
             fetchPolicy={'cache-and-network'}>
             {({ loading, error, data, fetchMore }) => {
                 if (loading)
@@ -53,9 +53,15 @@ const RepositoriesList = ({selectedUser}) => {
                     },
                 } = data;
 
-                const onPageChange = (after, before) => {
+                if(nodes && nodes.length === 0){
+                    return <Info info={'There are no repositories'}/>
+                }
+
+                const onPageChange = (first, last, after, before) => {
                     fetchMore({
                         variables: {
+                            first: first,
+                            last: last,
                             after: after,
                             before: before,
                         },
@@ -91,7 +97,7 @@ const RepositoriesList = ({selectedUser}) => {
                             endCursor={pageInfo.endCursor}
                             hasNextPage={pageInfo.hasNextPage}
                             hasPreviousPage={pageInfo.hasPreviousPage}
-                            startCursor={pageInfo.endCursor}
+                            startCursor={pageInfo.startCursor}
                         />
 
                     </div>

@@ -138,9 +138,10 @@ class RepositoryPage extends React.Component {
                                 </div>
                             </div>
                             <div className={'repo-title'}>
-                                <div className={'issues'}>Open Issues</div>
+                                <div className={'issues'}>{edges.length === 0 ? '':'Open Issues'}</div>
                                 <Button onClick={this.openModal} buttonText={'Create Issue'} />
                             </div>
+                            {edges.length === 0 && <Info info={'There are no issues'}/>}
                             {edges.map((item, index) => <FileItem file={item.node} key={index} />)}
                             <Modal
                                 isOpen={this.state.modalIsOpen}
