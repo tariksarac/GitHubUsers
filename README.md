@@ -1,4 +1,4 @@
-##Please use your "Personal access token" for GitHub API. There is .env file and variable REACT_APP_GITHUB_PERSONAL_ACCESS_TOKEN where you have to assign your token.
+## Please use your "Personal access token" for GitHub API. There is .env file and variable REACT_APP_GITHUB_PERSONAL_ACCESS_TOKEN where you have to assign your token.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
