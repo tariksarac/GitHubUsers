@@ -1,5 +1,7 @@
 ## Please use your "Personal access token" for GitHub API. There is .env file and variable REACT_APP_GITHUB_PERSONAL_ACCESS_TOKEN where you have to assign your token.
 
+This is the code for Search github users demo hosted at https://searchgithubusers.netlify.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

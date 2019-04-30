@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e3839c7-69c4-4f9b-9132-0ae6ec881f95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="29" column="60" lean-forward="true" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+            <state relative-caret-position="194">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -51,29 +52,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="170">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <first_editor relative-caret-position="26">
+                <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/SearchResultPage/SearchResultPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="74" column="29" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="29" />
+            <state relative-caret-position="247">
+              <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -181,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/utils/constants.js" />
         <option value="$PROJECT_DIR$/src/components/RepositoryPage/Modal/ModalContent.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/RepositoryPage/FileItem/FileItem.js" />
         <option value="$PROJECT_DIR$/src/components/SearchResultPage/UsersResults/UserResults.scss" />
         <option value="$PROJECT_DIR$/src/components/SearchResultPage/UsersResults/ResultItem/ResultItem.scss" />
@@ -192,11 +192,12 @@
         <option value="$PROJECT_DIR$/src/components/SearchResultPage/RepositoriesList/Pagination/Pagination.scss" />
         <option value="$PROJECT_DIR$/src/components/SearchResultPage/RepositoriesList/Pagination/Pagination.js" />
         <option value="$PROJECT_DIR$/src/components/SearchResultPage/UsersResults/UsersResults.js" />
-        <option value="$PROJECT_DIR$/src/components/SearchResultPage/SearchResultPage.js" />
         <option value="$PROJECT_DIR$/src/components/RepositoryPage/RepositoryPage.js" />
         <option value="$PROJECT_DIR$/src/components/SearchResultPage/RepositoriesList/RepositoriesList.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/SearchResultPage/SearchResultPage.js" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -306,12 +307,12 @@
       <workItem from="1547061330814" duration="2187000" />
       <workItem from="1547581754673" duration="3550000" />
       <workItem from="1556047113434" duration="400000" />
-      <workItem from="1556661564727" duration="197000" />
+      <workItem from="1556661564727" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125727000" />
+    <option name="totallyTimeSpent" value="126153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -595,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Common/ArtlandLoader/ArtlandLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -636,33 +630,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/components/SearchResultPage/SearchResultPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="29" column="60" lean-forward="true" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+        <state relative-caret-position="194">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SearchResultPage/SearchResultPage.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="74" column="29" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="26">
+            <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
