@@ -41,7 +41,7 @@ class Header extends Component {
                         this.goHome();
                         searchGitHubUser('');
                     }}>
-                    ARTLAND
+                    GitHubUsers
                 </div>
                 <input
                     placeholder={'Type user name'}

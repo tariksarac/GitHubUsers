@@ -72,7 +72,7 @@ class SearchResultPage extends React.Component {
             <Query query={USER_QUERY} variables={{ term: searchTerm }} fetchPolicy={'cache-and-network'}>
                 {({ loading, error, data }) => {
                     if (loading) return <ArtlandLoader />;
-                    if (error) return <Info info={'Ooops something went wrong'} />;
+                    if (error) return <Info info={'Ooops something went wrong, look at readme file!'} />;
                     let {
                         search: { edges },
                     } = data;
